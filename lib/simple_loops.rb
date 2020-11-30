@@ -27,4 +27,3 @@ def return_string_array(array)
   while array[c] < array.length
     new_list.push(arry[c].to_s)
   new_list
-  
