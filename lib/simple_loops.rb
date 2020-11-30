@@ -3,7 +3,7 @@
 def loop_message_five_times(message)
   c = 0
   while c < 5
-    puts string
+    puts message
     c += 1
   end
 end
@@ -11,7 +11,7 @@ end
 def loop_message_n_times(message, number)
   c = 0
   while c < int
-    puts string
+    puts message
     c += 1
   end
 end
