@@ -18,7 +18,7 @@ end
 
 def output_array(array)
   c = 0
-  while array[c] < array.length
+  while c < array.length
     puts array[c]
     c += 1
   end
@@ -27,7 +27,7 @@ end
 def return_string_array(array)
   new_list = []
   c = 0
-  while array[c] < array.length
+  while c < array.length
     new_list.push(arry[c].to_s)
   new_list
 end
