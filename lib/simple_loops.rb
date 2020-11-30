@@ -1,13 +1,13 @@
 # Write your methods here
 
-def loop_message_five_times(string)
+def loop_message_five_times(message)
   c = 0
   while c < 5
     puts string
     c += 1
 end
 
-def loop_message_n_times(string, int)
+def loop_message_n_times(message, number)
   c = 0
   while c < int
     puts string
